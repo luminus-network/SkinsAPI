@@ -7,7 +7,7 @@ const ProfileDB = require("../database/schema/profile");
 const bodyParts = require("./bodySection");
 const MinecraftSkin = require("./3dRender");
 const mojangApi = "https://api.mojang.com/users/profiles/minecraft/";
-const sessionApi = "https://sessionserver.mojang.com/session/minecraft/profile/";
+const sessionApi = "https://api.zluka.lol/api/v1/minecraft/sessionserver/session/minecraft/profile/";
 
 const steveDefault = {
     time: 0,
